@@ -588,6 +588,50 @@ video {
   }
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.left-1\/2 {
+  left: 50%;
+}
+
+.left-3 {
+  left: 0.75rem;
+}
+
+.left-1\/4 {
+  left: 25%;
+}
+
+.left-\[\] {
+  left: ;
+}
+
+.left-\[20\%\] {
+  left: 20%;
+}
+
+.left-\[18\%\] {
+  left: 18%;
+}
+
+.left-\[19\%\] {
+  left: 19%;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -598,6 +642,14 @@ video {
 
 .m-4 {
   margin: 1rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
+.m-1 {
+  margin: 0.25rem;
 }
 
 .mx-auto {
@@ -625,8 +677,25 @@ video {
   margin-right: 0.75rem;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .flex {
   display: flex;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-1 {
+  height: 0.25rem;
+}
+
+.h-\[1px\] {
+  height: 1px;
 }
 
 .w-1\/2 {
@@ -650,6 +719,22 @@ video {
   width: 100%;
 }
 
+.w-3 {
+  width: 0.75rem;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -668,6 +753,10 @@ video {
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .gap-2 {
@@ -758,6 +847,36 @@ video {
   background-color: rgb(22 24 28 / var(--tw-bg-opacity, 1));
 }
 
+.bg-green-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(134 239 172 / var(--tw-bg-opacity, 1));
+}
+
+.bg-red-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity, 1));
+}
+
+.bg-blue-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(29 78 216 / var(--tw-bg-opacity, 1));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity, 1));
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -818,6 +937,11 @@ video {
 
 .text-xl {
   font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
